@@ -34,14 +34,13 @@ function PostApp() {
 
   if (posts.length === 0) {
     return (
-      <>
-        <p>n</p>
-        <button onClick={() => fetchPosts()}>DD</button>
-      </>
+      <button className='btn btn-accent' onClick={() => fetchPosts()}>
+        Reload
+      </button>
     )
   }
 
-  return <div>{<Posts posts={posts} deletePost={deletePost} />}</div>
+  return <>{<Posts posts={posts} deletePost={deletePost} />}</>
 }
 
 export default PostApp
