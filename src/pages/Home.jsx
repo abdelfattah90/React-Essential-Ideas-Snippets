@@ -7,14 +7,14 @@ const Home = () => {
       </h2>
       <div className='card lg:card-side card-bordered'>
         <div className='card-body'>
-          <h2 className='card-title'>Snippet</h2>
-          <p>
-            Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit
-            sit necessitatibus veritatis sed molestiae voluptates incidunt iure
-            sapiente.
-          </p>
+          <h2 className='card-title'>Employees list</h2>
+          <p>componenet list and useState and mapping</p>
           <div className='card-actions'>
-            <Link className='btn btn-primary btn-lg' to='/'>
+            <Link
+              className='btn btn-primary btn-lg'
+              to='/employees-list'
+              target='_blank'
+            >
               Live Preview
             </Link>
           </div>
