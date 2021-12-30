@@ -23,6 +23,12 @@ const Home = () => {
           Random Reviews, next-prev Reviews, React-icons, Tailwindcss
         </p>
       </Link>
+      <Link to='/menu' target='_blank'>
+        <h3 className='text-2xl text-blue-500'>Menu</h3>
+        <p className='text-lg italic text-gray-500 pb-5'>
+          List menu , Categories toggle, Tailwindcss
+        </p>
+      </Link>
     </div>
   )
 }
