@@ -39,6 +39,12 @@ const Home = () => {
           Lorem ipsum Generate, Tailwindcss
         </p>
       </Link>
+      <Link to='/color' target='_blank'>
+        <h3 className='text-2xl text-blue-500'>Color</h3>
+        <p className='text-lg italic text-gray-500 pb-5'>
+          Color Generate, Tailwindcss
+        </p>
+      </Link>
     </div>
   )
 }
