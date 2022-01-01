@@ -29,6 +29,16 @@ const Home = () => {
           List menu , Categories toggle, Tailwindcss
         </p>
       </Link>
+      <Link to='/tabs' target='_blank'>
+        <h3 className='text-2xl text-blue-500'>Tabs</h3>
+        <p className='text-lg italic text-gray-500 pb-5'>Tabs, Tailwindcss</p>
+      </Link>
+      <Link to='/lorem' target='_blank'>
+        <h3 className='text-2xl text-blue-500'>Lorem</h3>
+        <p className='text-lg italic text-gray-500 pb-5'>
+          Lorem ipsum Generate, Tailwindcss
+        </p>
+      </Link>
     </div>
   )
 }
