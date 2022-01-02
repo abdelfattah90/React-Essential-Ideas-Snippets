@@ -45,6 +45,10 @@ const Home = () => {
           Color Generate, Tailwindcss
         </p>
       </Link>
+      <Link to='/grocery' target='_blank'>
+        <h3 className='text-2xl text-blue-500'>grocery</h3>
+        <p className='text-lg italic text-gray-500 pb-5'>localStorage</p>
+      </Link>
     </div>
   )
 }
