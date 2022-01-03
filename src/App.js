@@ -4,6 +4,7 @@ import EmployeesList from './projects/01-employees-list/EmployeesList'
 import PostApp from './projects/02-posts/PostApp'
 import Reviews from './projects/03-reviews/Reviews'
 import Menu from './projects/04-menu/Index'
+import Tabs from './projects/05-tabs/Tabs'
 
 import NotFound from './projects/NotFound'
 
@@ -16,7 +17,8 @@ function App() {
         <Route path='/posts' element={<PostApp />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/menu' element={<Menu />} />
-   
+        <Route path='/tabs' element={<Tabs />} />
+        
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
