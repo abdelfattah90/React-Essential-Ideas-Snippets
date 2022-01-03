@@ -18,7 +18,7 @@ function App() {
         <Route path='/posts' element={<PostApp />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/menu' element={<Menu />} />
-    
+      
         <Route path='/lorem' element={<Lorem />} />
         <Route path='/color' element={<Color />} />
         <Route path='*' element={<NotFound />} />
