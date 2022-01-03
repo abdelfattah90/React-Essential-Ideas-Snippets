@@ -4,9 +4,9 @@ import EmployeesList from './projects/01-employees-list/EmployeesList'
 import PostApp from './projects/02-posts/PostApp'
 import Reviews from './projects/03-reviews/Reviews'
 import Menu from './projects/04-menu/Index'
-//import Tabs from './projects/05-tabs/Tabs'
+// import Tabs from './projects/05-tabs/Tabs'
 import Lorem from './projects/06-lorem-ipsum/Lorem'
-import Color from './projects/07-color-generator/Color'
+// import Color from './projects/07-color-generator/Color'
 import NotFound from './projects/NotFound'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path='/menu' element={<Menu />} />
       
         <Route path='/lorem' element={<Lorem />} />
-        <Route path='/color' element={<Color />} />
+       
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
