@@ -37,12 +37,6 @@ const Home = () => {
       title: 'Lorem',
       desc: 'Lorem ipsum Generate, Tailwindcss',
     },
-    {
-      id: 7,
-      url: 'color',
-      title: 'Color',
-      desc: 'Color Generate',
-    },
   ]
   return (
     <div className='container p-5'>
