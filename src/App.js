@@ -7,7 +7,6 @@ import Menu from './projects/04-menu/Index'
 import Tabs from './projects/05-tabs/Tabs'
 import Lorem from './projects/06-lorem-ipsum/Lorem'
 import Color from './projects/07-color-generator/Color'
-import Grocery from './projects/08-grocery-bud/Grocery'
 import NotFound from './projects/NotFound'
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         <Route path='/tabs' element={<Tabs />} />
         <Route path='/lorem' element={<Lorem />} />
         <Route path='/color' element={<Color />} />
-        <Route path='/grocery' element={<Grocery />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>

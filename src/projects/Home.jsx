@@ -41,13 +41,7 @@ const Home = () => {
       id: 1,
       url: 'color',
       title: 'Color',
-      desc: 'Color Generate, Tailwindcss',
-    },
-    {
-      id: 1,
-      url: 'grocery',
-      title: 'Grocery',
-      desc: 'localStorage',
+      desc: 'Color Generate',
     },
   ]
   return (
