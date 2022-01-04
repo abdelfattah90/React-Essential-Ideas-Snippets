@@ -6,6 +6,7 @@ import Reviews from './projects/03-reviews/Reviews'
 import Menu from './projects/04-menu/Index'
 import Tabs from './projects/05-tabs/Tabs'
 import Lorem from './projects/06-lorem-ipsum/Lorem'
+import LocalStorageApp from './projects/07-local-storage/LocalStorage'
 import NotFound from './projects/NotFound'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='/menu' element={<Menu />} />
         <Route path='/tabs' element={<Tabs />} />
         <Route path='/lorem' element={<Lorem />} />
-
+        <Route path='/local-storage' element={<LocalStorageApp />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
